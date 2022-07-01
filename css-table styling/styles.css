@@ -1,0 +1,250 @@
+*{
+  margin: 0px;
+  padding: 3px;
+  box-sizing: border-box;
+}
+
+.navBar {
+  margin: 0px;
+  margin-bottom: 5px;
+  padding: 20px;
+  box-sizing: border-box;
+  border: 0px;
+  border-style: hidden;
+  border-color: aquamarine;
+  font-size: large;
+  background-color: rgb(165, 165, 165);
+  color: azure;
+  border-radius: 0px;
+}
+
+#navBarItems {
+  padding-left: 10px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  /* font-style: normal; */
+  font-stretch: condensed;
+  font-weight: 600;
+}
+
+#hov {
+  padding-left: 15px;
+  text-emphasis-color: red;
+  text-decoration: red;
+  text-shadow: 12px;
+  /* height: 200px;
+  width: 200px;*/
+  background-color: rgb(128, 128, 129);
+}
+
+#quote {
+  padding-left: 15px;
+  padding-right: 15px;
+  font-family: cursive;
+  font-weight: bold;
+  font-style: oblique;
+  font-size: x-large;
+}
+
+#quoteAuthor {
+  font-weight: bolder;
+  font-size: large;
+  color: rgb(124, 124, 124);
+  font-style: italic;
+}
+#quoteAuthorTitle {
+  font-weight: bolder;
+  font-size: small;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(124, 124, 124);
+  font-style: italic;
+}
+
+#foodTable1 {
+  /* float: inline-start; */
+  /* table-layout: auto; */
+  /* margin: 0px 30px 0px 30px;
+  padding-bottom: 2px; */
+  /* border-bottom: 3px solid rgb(0, 0, 0); */
+  /* center; */
+}
+
+th {
+
+  padding-bottom: 2px;
+  /* border-bottom: 2px solid rgb(0, 0, 0); */
+}
+
+tr, td {
+  margin: 10px 30px 30px 30px;
+  border-top: 1px solid rgb(145, 145, 145);
+}
+
+div td {
+  padding-bottom: 3px;
+  padding-top: 10px;
+}
+
+form {
+  text-align: center;
+  color: black;
+}
+
+div input {
+  color: black;
+}
+
+.container{
+  margin: 0 auto;
+  width: fit-content;
+  border: 4px;
+  border-style: dotted;
+    height: auto;
+
+    display: grid;
+
+   /* Change  values   👇 to experiment*/
+    justify-content: center;
+}
+#subtitle {
+  color: rgb(102, 102, 102);
+  padding-bottom: 10px;
+}
+
+.container :hover {
+  color: brown;
+}
+
+
+img {
+float: center;
+border-style: groove;
+padding: 18px;
+border-radius: 28px;
+border-color: pink;
+border-width: 10px;
+border-spacing: 20px;
+margin: 10px 10px;
+}
+
+img:hover {
+  border-color: teal;
+}
+
+input [type=button] {
+  /* text-size-adjust: 14px; */
+  background-color: bisque;
+}
+
+
+.hov:hover {
+  background-color: rgba(221, 216, 216, 0.488);
+}
+
+.every-even li:nth-child(even) {
+  align-content: center;
+  background-color: red;
+
+}
+li {
+  display: grid;
+  /* grid-column-start: 25% 1fr;
+  grid-column-end: 75% 1fr; */
+  grid-template-columns: 25% 1fr;
+}
+
+#everyLine {
+  box-sizing: border-box;
+    align-content: center;
+    position: relative;
+  list-style-position: inside;
+  font-style: oblique;
+}
+
+li {
+  border-collapse: collapse;
+  width: 100%;
+  border-bottom: 1px solid black;
+}
+
+.every-even li:nth-child(even):hover {
+  background-color: aqua;
+}
+
+.every-third li:nth-child(3n) {
+  background-color: red;
+}
+
+body {
+  background-color: rgb(170, 208, 195);
+}
+
+h1 {
+  color: rgb(212, 227, 255);
+}
+
+ol {
+  border-collapse: collapse;
+  width: 100%;
+  border-bottom: 1px solid black;
+
+  counter-reset: li;
+}
+
+li::before {
+  content: counter(li) ".";
+  text-align: end;
+  margin-inline-end: 0.3rem;
+}
+
+li[value]::before {
+  content: attr(value);
+}
+
+div {
+  margin: auto;
+  text-align: center;
+  background-color: blanchedalmond;
+  border-style: solid;
+  border-color: darkgray;
+  border-radius: 8px;
+  padding-top: 15px;
+  padding-bottom: 8px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.indexTable {
+  /* justify-self: center; */
+  text-align: left;
+  font
+  padding-top: 30px;
+  padding-left: 40px;
+  padding-bottom: 20px;
+  /* table-layout: auto; */
+}
+
+#indexTable-Heading {
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+form {
+  text-align: center;
+}
+
+.shadow-text {
+  text-shadow: goldenrod 2px 2px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0 0 10px 0;
+}
+
+#large-paragraph {
+  font-size: 20px;
+  box-sizing: border-box;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: fit-content;
+}
+
+
